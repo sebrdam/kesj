@@ -1,0 +1,18 @@
+{ "data":[
+    {
+        "category": "ddr3",
+        "url": "http://www.alternate.nl/html/product/listing.html?navId=11556&tk=7&lk=9326&size=40",
+        "pattern": "<div class=\"listRow\">(.*?)<div class=\"clear\">",
+        "subpatternprijs": "&euro; (.*?)</sup>",
+        "subpatternomschrijving": "<span class=\"pic\" title=\"(.*?)\""
+    },
+
+    {
+        "category": "ddr4",
+        "url": "http://www.alternate.nl/html/product/listing.html?navId=11556&tk=7&lk=9326&size=40",
+        "pattern": "<div class=\"listRow\">(.*?)<div class=\"clear\">",
+        "subpatternprijs": "&euro; (.*?)</sup>",
+        "subpatternomschrijving": "<span class=\"pic\" title=\"(.*?)\""
+    }
+]}
+
